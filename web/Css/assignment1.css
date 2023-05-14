@@ -1,0 +1,95 @@
+	body
+	{
+		background-color: #00B3FF;
+		font-family: serif;
+	}
+	#container
+	{
+		margin: 0 auto;
+		width: 75%;
+		background-image: url(images/background.gif);
+	    background-repeat: repeat-y;
+		font-size: 20px;
+	}
+	#header
+	{
+		background-color: #0000FF;
+	    padding: 15px;
+		color: #FFFF00;
+		font-size: 20pt;
+	}
+	#header h1
+	{
+		margin: 0;
+	}
+	#navigation
+	{
+	   width: 100%;
+	   color: green;
+	   float: left;
+	}
+	#navigation ul
+	{
+	   margin: 0;
+	   padding: 0;
+	   width: 100%;
+	}
+	#navigation ul li
+	{
+	   font-size: 20px;
+	   list-style-type: none;
+	   display: inline;
+	   width: 100%;
+	}
+	#navigation ul li a
+	{
+	   background-color: #ffffff;
+	   float: left;
+	   padding-top: 4px;
+	   padding-right: 12px;
+	   padding-left: 13px;
+	   padding-bottom: 4px;
+	   color: green;
+	   text-decoration: none;
+	   border-style: double;
+	   border-width: 1px;
+	   border-color: #000000;
+	   font-size: 18px;
+	}
+	#navigation ul li a:hover
+	{
+	   background-color: yellow;
+	   color: blue;
+	}
+	#content-container
+	{
+	   width: 90%;
+	   margin: 50px 50px 30px 30px;
+	   font-weight: 100;
+	}
+	#content
+	{
+	   clear: left;
+	   width: 100%;
+	   padding-right: 20px;
+	   padding-bottom: 20px;
+	   padding-top: 20px;
+	   padding-left: 20px;
+	   margin: 30px;
+	   display: inline;
+	}
+	#footer
+	{
+		text-align: right;
+	}
+	#content p.welcome
+	{
+		font-size: 15pt;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#content > a
+	{
+		font-size: 15pt;
+		margin: 0 auto;
+	}
